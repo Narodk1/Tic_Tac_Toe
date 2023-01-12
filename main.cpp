@@ -90,7 +90,7 @@ int board_count(char symbol)
 	int total = 0;
 	for (int i = 0; i < 9; i++)
 	{
-		if (board[i] == symbol)
+		if(board[i] == symbol)
 			total += 1;
 	}
 	return total;
